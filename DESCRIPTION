@@ -1,0 +1,34 @@
+Package: Test
+Title: Multivariate Analysis Tools
+Version: 0.0.1.000
+Authors@R:
+    person("Katalina", "Leyva", email = "f@gmail.com", role = c("aut", "cre"))
+Description: This package provides users with basic tools for statistical
+    multivariate analysis, including functions for initial descriptive analysis 
+    and dimensionality reduction.
+Imports:
+    dplyr,
+    purrr,
+    tibble,
+    moments,
+    dlookr,
+    ggplot2,
+    gghalves,
+    tidyr,
+    graphics,
+    rlang,
+    forcats,
+    patchwork,
+    reshape2,
+    tidyselect,
+    stats,
+    energy,
+    polycor,
+    psych,
+    factoextra,
+    FactoMineR,
+    corrplot
+License: MIT
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
